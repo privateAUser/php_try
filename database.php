@@ -38,7 +38,7 @@ function getStudentList()
 
     if ($result->num_rows > 0) {
         while ($row = $result->fetch_assoc()) {
-            echo "id:  " . $row["id"] . " - Name: " . $row["firstname"] . " " . $row["lastname"] . "    email: " . $row["email"]  . "<br>";
+            echo "<center><p><b>id:</b>  " . $row["id"] . " &emsp; <b>name:</b> " . $row["firstname"] . " " . $row["lastname"] . " &emsp;<b>email:</b> " . $row["email"]  . " <b> &emsp; gender:</b> ". $row["gender"] ."</p></center>";
         }
     }
     else {

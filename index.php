@@ -28,8 +28,8 @@
       <br>
       <br>
       <label> Gender : </label>
-      <input type="radio" name="gender" checked /> Male
-      <input type="radio" name="gender" /> Female
+      <input type="radio" name="gender" value="male" checked /> Male
+      <input type="radio" name="gender" value="female" /> Female
       <br>
       <br>
       <br>
