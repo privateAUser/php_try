@@ -1,0 +1,9 @@
+
+ 
+ 'Hello\nWorld!\n\xC0\xDE\xF0\x0D'
+ 
+
+
+
+
+entry
